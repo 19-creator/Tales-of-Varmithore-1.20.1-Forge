@@ -20,8 +20,8 @@ import java.util.Optional;
 import java.util.UUID;
 
 public abstract class TamableMob extends PathfinderMob implements OwnableEntity {
-    protected static final EntityDataAccessor<Byte> DATA_FLAGS_ID = SynchedEntityData.defineId(TamableAnimal.class, EntityDataSerializers.BYTE);
-    protected static final EntityDataAccessor<Optional<UUID>> DATA_OWNERUUID_ID = SynchedEntityData.defineId(TamableAnimal.class, EntityDataSerializers.OPTIONAL_UUID);
+    protected static final EntityDataAccessor<Byte> DATA_FLAGS_ID = SynchedEntityData.defineId(TamableMob.class, EntityDataSerializers.BYTE);
+    protected static final EntityDataAccessor<Optional<UUID>> DATA_OWNERUUID_ID = SynchedEntityData.defineId(TamableMob.class, EntityDataSerializers.OPTIONAL_UUID);
     private boolean orderedToSit;
 
     protected TamableMob(EntityType<? extends PathfinderMob> pEntityType, Level pLevel) {

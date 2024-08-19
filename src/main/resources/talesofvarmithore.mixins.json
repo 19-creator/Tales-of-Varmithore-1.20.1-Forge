@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.nineteen.talesofvarmithore.common.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "talesofvarmithore.refmap.json",
+  "server": [
+  ],
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}

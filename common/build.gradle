@@ -25,7 +25,7 @@ dependencies {
     implementation "software.bernie.geckolib:geckolib-common-${minecraft_version}:${geckolib_version}"
     implementation "net.tslat.smartbrainlib:SmartBrainLib-common-${minecraft_version}:${sbl_version}"
     //implementation "curse.maven:bluelib-common-1132979:6575950"
-    implementation files ("libs/2.0.0-common-1.21.1-bluelib.jar")
+    implementation files ("libs/2.0.0-common-1.21.1-bluelib-beta.jar")
 }
 
 configurations {

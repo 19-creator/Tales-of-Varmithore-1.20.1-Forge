@@ -15,7 +15,7 @@ dependencies {
     modImplementation "net.tslat.smartbrainlib:SmartBrainLib-fabric-${minecraft_version}:${sbl_version}"
     modImplementation "curse.maven:architectury-api-419699:5786326"
     //modImplementation "maven.modrinth:bluelib:${bluelib_version}"
-    modImplementation files ("libs/2.0.0-fabric-1.21.1-bluelib.jar")
+    modImplementation files ("libs/2.0.0-fabric-1.21.1-bluelib-beta.jar")
 }
 
 loom {
